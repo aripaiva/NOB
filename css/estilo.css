@@ -1,0 +1,58 @@
+
+
+/* Navbar
+----------*/
+
+body {
+	font-family: "Times New Roman", Times, sans-serif;
+}
+
+.logo {
+	margin-left: 20px;
+}
+
+.bg-primary-color {
+	background-color: rgba(0, 0, 255, 0.8);
+}
+
+.navbar-brand {
+	margin-left: 10px;
+	color: white;
+}
+
+.nav-link {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.nav-item ul li a:hover {
+	border-bottom: 1px solid #00FF00;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 35em;
+}
+
+.navbar {
+	border-bottom: 4px solid #2EFE2E;
+}
+
+section {
+	margin-top: 150px;
+}
+
+/* Conteudo
+-------------*/
+
+.colunas {
+	border: 2px solid red;
+	background: #000;
+	color: #fff;
+}
