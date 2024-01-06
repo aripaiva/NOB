@@ -1,9 +1,8 @@
 
 
-/* Navbar
-----------*/
 
-body {
+
+* {
 	font-family: "Times New Roman", Times, sans-serif;
 }
 
@@ -13,6 +12,36 @@ body {
 
 .bg-primary-color {
 	background-color: rgba(0, 0, 255, 0.8);
+}
+
+.primary-color {
+	color: aquamarine;
+}
+
+/* Navbar
+----------*/
+#navbar {
+	border-bottom: 4px solid #2EFE2E;
+}
+
+#navbar a:hover {
+	border-bottom: 1px solid #FFF933;
+	color: #FFF933;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar-brand span {
+    font-weight: 700;
+	font-size: 0.9em;
+	margin-left: 0.5em;
+	margin-top: 10px;
 }
 
 .navbar-brand {
@@ -26,23 +55,13 @@ body {
 	text-transform: uppercase;
 }
 
-.nav-item ul li a:hover {
-	border-bottom: 1px solid #00FF00;
-}
-
-.navbar-brand {
-    display: flex;
-}
-
 .navbar-nav {
     display: flex;
     justify-content: center;
     width: 35em;
 }
 
-.navbar {
-	border-bottom: 4px solid #2EFE2E;
-}
+
 
 section {
 	margin-top: 150px;
