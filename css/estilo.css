@@ -84,7 +84,7 @@ section {
 	padding-bottom: 1em;
 	margin-top: 5.5em;
 	margin-bottom: 0.6em;
-	background: url(../img/bandeira.jpg) no-repeat;
+	background: url(../img/bandeira.jpg);
 	color: #fff;
 	text-shadow: 2px 2px #000;
 	text-align: justify;
