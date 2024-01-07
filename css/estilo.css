@@ -79,15 +79,32 @@ section {
 /* Conteudo
 -------------*/
 
-.colunas {
+#advertencia {
 	padding-top: 1em;
 	padding-bottom: 1em;
 	margin-top: 5.5em;
 	margin-bottom: 0.6em;
-	background: url(../img/bandeira.jpg);
+	background: url(../img/bandeira.jpg);	
+	text-align: justify;
+}
+
+#advertencia h2 {
 	color: #fff;
 	text-shadow: 2px 2px #000;
+}
+
+#carta {
+	background-color: #fff;
+	color: #000;	
+}
+
+#carta p {
 	text-align: justify;
+}
+
+#carta h3 {
+	padding-top: 1em;
+	text-shadow: 1px 1px #DFFF00;
 }
 
 /* Footer top
