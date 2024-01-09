@@ -88,6 +88,12 @@ section {
 	text-align: justify;
 }
 
+@media (max-width: 575.98px) {
+	#advertencia {
+		margin-top: 8.3em;
+	}
+}
+
 #advertencia h2 {
 	color: #fff;
 	text-shadow: 2px 2px #000;
@@ -110,12 +116,12 @@ section {
 /* Footer top
 ---------------*/
 #footer {
-	padding: 3em 2em;
+	padding: 1em 1em;
 	border-top: 4px solid #2EFE2E;
 }
 
 #footer-top {
-	margin-bottom: 2em;
+	margin-bottom: 0.5em;
 }
 
 #footer-top, #footer-top i {
@@ -128,7 +134,7 @@ section {
 
 #social-icons i {
 	margin-right: 1em;
-	font-size: 1.5em;
+	font-size: 1em;
 	cursor: pointer;
 }
 
@@ -136,6 +142,40 @@ section {
 	color: #7a7a7a;
 }
 
-#footer-detals h4 {
-	margin-top: -2.1em;
+#news-container, #alert-container, #links-container {
+	padding: 0;
+	border: 0;
+	margin-bottom: 2em;
+}
+
+/*Footer Bottom
+----------------*/
+#footer-bottom {
+	border-top: 1px solid #7a7a7a;
+	padding-top: 2em;
+}
+
+#footer-bottom i {
+	color: #000;
+	margin-left: 0.3em;
+}
+
+@media(min-width: 768px) {
+	#news-container {
+		padding-right: 2em;
+	}
+
+	#links-container {
+		padding-left: 2em;
+	}
+
+	#alert-container {
+		padding: 0 2em;
+		border-left: 1px solid #7a7a7a;
+		border-right: 1px solid #7a7a7a;
+	}
+}
+
+#cpu-icon {
+	text-align: center;
 }
